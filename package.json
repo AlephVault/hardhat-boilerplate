@@ -1,0 +1,33 @@
+{
+  "name": "hardhat-boilerplate",
+  "version": "1.0.0",
+  "description": "A hardhat boilerplate (with some additional packages)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luismasuelli/hardhat-boilerplate.git"
+  },
+  "keywords": [
+    "Hardhat"
+  ],
+  "author": "Luis Masuelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luismasuelli/hardhat-boilerplate/issues"
+  },
+  "homepage": "https://github.com/luismasuelli/hardhat-boilerplate#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^0.15.3",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.2",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3",
+    "hardhat-contract-sizer": "^2.10.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^1.1.0",
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
