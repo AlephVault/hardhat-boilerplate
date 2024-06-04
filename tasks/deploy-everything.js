@@ -38,6 +38,10 @@ async function resetDeployments(hre) {
 task("deploy-everything", "Deploys all our ecosystem")
     // .addOptionalParam("owner", "An address that will be considered the master/owner of the system (specially useful in local)")
     .setAction(async ({ /*owner*/ }, hre, runSuper) => {
+        // Know the paths here and properly use the path you want, if any:
+        //
+        // console.log("The current paths set is:", hre.config.paths);
+        //
         /**
          * Assuming that your hardhat configuration tolerates N accounts,
          * you can pick idx between 0 and N-1 and get the address of that
