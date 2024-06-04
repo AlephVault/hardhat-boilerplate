@@ -20,14 +20,12 @@
   },
   "homepage": "https://github.com/luismasuelli/hardhat-boilerplate#readme",
   "devDependencies": {
+    "@chainlink/contracts": "^1.1.0",
+    "@openzeppelin/contracts": "^5.0.2",
     "@nomicfoundation/hardhat-ignition": "^0.15.3",
     "@nomicfoundation/hardhat-ignition-ethers": "^0.15.2",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "hardhat": "^2.22.3",
     "hardhat-contract-sizer": "^2.10.0"
-  },
-  "dependencies": {
-    "@chainlink/contracts": "^1.1.0",
-    "@openzeppelin/contracts": "^5.0.2"
   }
 }
