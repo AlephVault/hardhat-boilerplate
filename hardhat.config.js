@@ -1,7 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomicfoundation/hardhat-ignition-ethers");
 require('hardhat-contract-sizer');
-require('./tasks/deploy-everything');
+require('hardhat-servers');
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
