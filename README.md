@@ -29,3 +29,5 @@ In order to understand the plug-ins, properly read the documentations:
 6. [Documentation for hardhat-ignition-deploy-everything](https://github.com/AlephVault/hardhat-ignition-deploy-everything)
 7. [Documentation for hardhat-openzeppelin-common-blueprints](https://github.com/AlephVault/hardhat-openzeppelin-common-blueprints)
 
+You can get an understanding by reading [this tutorial](https://medium.com/@luismasuelli/the-easy-way-to-hardhat-introduction-a21d734fdaba).
+Each of the parts 2 to 8 document one of these (new) packages.
